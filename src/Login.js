@@ -7,9 +7,9 @@ export const Login =()=>{
     const navigate=useNavigate();
 let [user,setUser] =useState('');
 const getValue = (event) =>{
-const user= event.target.value;
-console.log(user);
-setUser(user);
+const users= event.target.value;
+console.log(users);
+setUser(users);
 
 }
 const handleSubmit = (e) =>{
